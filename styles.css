@@ -17,7 +17,7 @@
     padding-top: env(safe-area-inset-top);       /* (선택) 상단 노치 대응 */
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);
-    background-image: url('./images/bg.webp');
+    background-image: url('./images/bg2.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
