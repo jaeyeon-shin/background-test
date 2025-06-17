@@ -9,8 +9,15 @@
     height: 100%;
     font-family: sans-serif;
     background-color: black;
+    overflow: hidden; /* ✅ 스크롤 막기 */
   }
   
+  body {
+    position: fixed; /* 스크롤 자체를 못하게 만듦 */
+    top: 0;
+    left: 0;
+  }
+
   .wrapper {
     min-height: 100vh;
     padding-bottom: env(safe-area-inset-bottom); /* ✅ 하단 주소창 대응 */
