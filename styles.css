@@ -19,9 +19,9 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    object-fit: contain;
-    z-index: 0; /* -1 → 보이지 않는 문제 가능성 있음 */
-    pointer-events: none; /* 클릭 막음 */
+    object-fit: cover; /* ✅ 이렇게 */
+    z-index: 0;
+    pointer-events: none;
   }
   
   .content {
