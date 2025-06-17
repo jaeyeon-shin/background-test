@@ -18,10 +18,13 @@
     padding-bottom: env(safe-area-inset-bottom, 20px);
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);
+    
     background-image: url('./images/bg.webp');
-    background-size: cover;
-    background-position: center;
+  
+    /* ✅ 여기 변경됨 */
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
   
     display: flex;
     justify-content: center;
